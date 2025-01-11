@@ -1,6 +1,6 @@
 import React from "react";
 import { Tabs, Tab } from "@mui/material";
-import "./heading.css";
+import "./Heading.css";
 
 const Heading = () => {
   const [selectedTab, setSelectedTab] = React.useState(0);
