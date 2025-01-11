@@ -1,0 +1,25 @@
+.chart-and-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 120px;
+    padding: 20px;
+  }
+  
+  .chart-container {
+    flex: 2;
+    margin-right: 20px;
+    height: 500px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .get-started-container {
+    flex: 1;
+    border-radius: 8px;
+  }
+  
+  

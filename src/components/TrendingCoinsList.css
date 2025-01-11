@@ -1,0 +1,56 @@
+.trending-coins-list {
+    list-style: none;
+    padding: 0;
+}
+
+.trending-coins-list h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.coin-item {
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #ffffff; 
+  border: 1px solid #dedede;  
+  padding: 10px;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.coin-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.coin-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+.coin-symbol {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.coin-change {
+  font-size: 14px;
+  font-weight: 500;
+}
+.A{
+    display: flex;
+    padding: 10px;
+}

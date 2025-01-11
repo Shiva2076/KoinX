@@ -1,0 +1,60 @@
+/* Global Styles */
+body {
+  margin: 0; /* Remove default browser margins */
+  background-color: #eff2f5; /* Set background color */
+}
+
+/* Container Styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto; /* Center container horizontally */
+  padding: 2rem; /* Add some padding around the content */
+}
+
+/* Logo Styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter; /* Improve performance for hover effect */
+  transition: filter 300ms; /* Smooth hover transition */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* Add a subtle shadow on hover */
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa); /* Different shadow for React logo */
+}
+
+/* Logo Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Apply spin animation to the second logo only */
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card Styles */
+.card {
+  padding: 2em;
+}
+
+/* Read the Docs Link Style */
+.read-the-docs {
+  color: #888; /* Light gray color for the link */
+}
+
+/* Background Color for Specific Div */
+.new-bg-color {
+  background-color: #f0f0f0; /* Example: Light gray background */
+}
